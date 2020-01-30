@@ -31,7 +31,8 @@ const providers = [
 */
 const aceProviders = [
   '@adonisjs/lucid/providers/MigrationsProvider',
-  '@adonisjs/vow/providers/VowProvider'
+  '@adonisjs/vow/providers/VowProvider',
+  '@adonisjs/validator/providers/ValidatorProvider',
 ]
 
 /*
@@ -58,4 +59,4 @@ const aliases = {}
 */
 const commands = []
 
-module.exports = { providers, aceProviders, aliases, commands }
+module.exports = {providers, aceProviders, aliases, commands}
